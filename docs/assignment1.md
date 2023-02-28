@@ -1,15 +1,15 @@
 **ASSIGNMENT 1**
 
-In this assignment you will practice working with the Google Colab environment and PyTorch. You’ll also practice setting a simple image classification pipeline. The goals of this practice are the following:
+In this assignment you will practice working with the Google Colab environment and PyTorch. You’ll also practice building a model to fit a function. The goals of this practice are the following:
 
 -   Gain experience setting and using notebooks on Google Colab.
 -   Develop familiarity with basic structures of PyTorch: tensors, autograd, modules.
--   Practice dealing with image data.
--   Understand better the data-driven approach.
--   Practice setting a image classification pipeline.
--   Train a neural network as a image classifier.
--   Understand the train/test/val data split, and learn how to evaluate and adjust your system.
--   Use visualization tools to evaluate your work.
+-   Understand neural networks as functions and models for functions approximation.
+-   Develop familiarity with the data-driven approach.
+-   Train a neural network to fit 1D functions.
+-   Use visualization tools to evaluate your result.
+
+![](img/cosine_approximation.gif)
 
 ------
 ### Instructions:
@@ -17,15 +17,15 @@ If you’re using Google Colab, you just need to have a google account and an as
 
 Create a folder in your Google Drive or in your machine’s workspace. Copy to your drive folder or download the following notebook:
 
-[Assignment 1 Notebook](https://colab.research.google.com/github/hallpaz/3dsystems21/blob/main/assignments/Assignment1.ipynb)
-<a href="https://colab.research.google.com/github/hallpaz/3dsystems21/blob/main/assignments/Assignment1.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+[Assignment 1 Notebook](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab1_fittingfunctions.ipynb)
+<a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab1_fittingfunctions.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 Follow the instructions in the notebook for completing the assignment.
 
 You can build auxiliary .py scripts and call them from your notebook, for organizational purposes.
 
 ### Submission for IMPA students
-The assignment is due on March 21  2021 at 11:59pm (GMT-3).
+The assignment is due on April 3rd, 2023 at 11:59pm (GMT-3).
 
 IMPA students that are regularly enrolled in the program should send their assignments before the due date to [hallpaz@impa.br](mailto:hallpaz@impa.br) with a copy to [lvelho@impa.br](mailto:lvelho@impa.br). Late delivers will be consider subject to a lower score.
 
@@ -38,16 +38,10 @@ The organization of the code will also be considered in the evaluation.
 ### For remaining students:
 For students that are enrolled as “Aluno de Curso Livre” you must not send your assignment to us, since we’ll not be able to evaluate them due to the large number of students and lack of resources from our side.
 
-For students following the course on this modality, we recall that all assignments will be corrected/solved during the Lab classes. Therefore, students must evaluate themselves by comparing our corrections with their solutions. Students taking the writing exam at the end of the semester will be expected to have solved all the assignments.
+For students following the course on this modality, we recall that all assignments will be corrected/solved during the Lab classes. Therefore, students must evaluate themselves by comparing our corrections with their solutions. 
 
 ### References:
 
-1. Luiz Velho. [Processamento de Imagens: Deep Video](https://www.youtube.com/watch?v=QEH10puhBXY&list=PLo4jXE-LdDTRaFa39TdNN3FgPAKkcuHvj&index=2) (aulas 2 e 3)
-2. Daniel Yukimura. [An Introduction to PyTorch (Slides)](https://slides.com/danielyukimura/deck-493038).
-3. Programação Dinâmica. [Como usar o Google Colab para Analisar Dados? (Vídeo)](https://youtu.be/_mIwsA2ddSc)
-4. PyTorch Tutorial: [Training a Classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html).
-5. [Plane vs Bird classifier](https://colab.research.google.com/github/hallpaz/3dsystems21/blob/main/examples/NNClassification.ipynb)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA5MDM3OTgsMTE5MjM2MjIwNywtMT
-E0MzI5NDg5NCwxNDU5NzY3NDE0XX0=
--->
+1. Daniel Yukimura. [An Introduction to PyTorch (Slides)](https://slides.com/danielyukimura/deck-493038)
+2. Programação Dinâmica. [Como usar o Google Colab para Analisar Dados? (Vídeo)](https://youtu.be/_mIwsA2ddSc)
+3. PyTorch Tutorial: [Training a Classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)

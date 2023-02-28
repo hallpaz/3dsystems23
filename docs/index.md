@@ -1,4 +1,4 @@
-Here you'll find the instructions to each assignment of the course 3D Graphics Systems v2021.
+Here you'll find the instructions to each assignment of the course 3D Graphics Systems v2023.
 
 ### Assignment 1 - [Intro to PyTorch and Google Colab](assignment1.md)
 

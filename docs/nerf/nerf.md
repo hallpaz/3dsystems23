@@ -7,7 +7,7 @@ marp: true
 # Implicit surfaces rendering in PyTorch3D
 
 
-### 3D Graphics Systems - IMPA 2021 - Lab Class #10
+### 3D Graphics Systems - IMPA 2023 - Lab Class #10
 
 <!--_footer: Based on [Matthew Tancik's presentation](https://youtu.be/dPWLybp4LL0)-->
 
@@ -104,7 +104,7 @@ Your browser does not support the video tag.
 - Speed - hundreds of thousands of iterations for high-res
 * Sampling resolution along rays
 * Generalization - specific for one scene
-  * No more? [PixelNeRF](https://alexyu.net/pixelnerf/) (CVPR, 2021 - happening NOW!)
+  * No more? [PixelNeRF](https://alexyu.net/pixelnerf/) (CVPR, 2023 - happening NOW!)
 
 ---
 <!-- _class: invert -->
