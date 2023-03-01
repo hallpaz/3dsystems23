@@ -2,7 +2,7 @@ Here you'll find the instructions to each assignment of the course 3D Graphics S
 
 ### Assignment 1 - [Intro to PyTorch and Google Colab](assignment1.md)
 
-### Assignment 2 - [Intro to PyTorch3D - Lab class only](x_assignment2.md)
+### Lab Class 2 - [Introduction to PyTorch3D](labclass2.md)
 
 ### Assignment 3 - [Bundle Adjustment](x_assignment3.md)
 
