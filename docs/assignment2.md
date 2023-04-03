@@ -8,6 +8,7 @@ In this assignment you will see in practice the theory of sampling and reconstru
 - Verify the spectral bias of MLP toward lower frequencies.
 - Fit an image signal using neural networks.
 
+![](img/hallpaz.gif)
 
 ------
 ### Instructions:
