@@ -38,6 +38,10 @@ If your whole solution is implemented in the same notebook as the one provided f
 ### References:
 
 1. Learning Signals - [class video](https://www.youtube.com/watch?v=OcxvX4bMnzk).
-2. [Amostragem e Reconstrução de Imagens](https://www.youtube.com/live/E8PJDhwy_RI?feature=share) | O que é ALIASING e Como Redimensionar Imagens em Python
+2. [Amostragem e Reconstrução de Imagens](https://www.youtube.com/live/E8PJDhwy_RI?feature=share) - O que é ALIASING e Como Redimensionar Imagens em Python
 2. Vincent Sitzmann, Julien N. P. Martel, Alexander W. Bergman, David B. Lindell, Gordon Wetzstein. Implicit Neural Representations with Periodic Activation Functions. In Proc. NeurIPS, 2020.
 3. Hallison Paz, Tiago Novello, Vinicius Silva, Guilherme Shardong, Luiz Schirmer, Fabio Chagas, Helio Lopes, Luiz Velho. Multiresolution Neural Networks for Imaging. Sibgrapi, 2022.
+4. [Interpolation in 5 Minutes](Interpolation in 5 minutes).
+5. [Images in 5 minutes](https://youtu.be/xUzhKqf22mY): The Case of the Splotched Van Gogh, Part 1.
+6. [Image filtering in 5 minutes](https://youtu.be/6v8dNtknOSM): The Case of the Splotched Van Gogh, Part 2
+7. [Fourier Transform in 5 minutes](https://youtu.be/JciZYrh36LY): The Case of the Splotched Van Gogh, Part 3
