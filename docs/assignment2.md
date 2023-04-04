@@ -10,6 +10,9 @@ In this assignment you will see in practice the theory of sampling and reconstru
 
 ![](img/hallpaz.gif)
 
+[Assignment 2 Notebook](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab2_learningsignals.ipynb)
+<a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab2_learningsignals.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 ------
 ### Instructions:
 If you’re using Google Colab, you just need to have a google account and an associated Google Drive. In case you’re choosing to work locally in your machine you must set Anaconda or a venv virtual environment, and install the necessary libraries.
