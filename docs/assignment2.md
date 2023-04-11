@@ -1,4 +1,4 @@
-**ASSIGNMENT 2**
+**ASSIGNMENT 2 - LEARNING SIGNALS**
 
 In this assignment you will see in practice the theory of sampling and reconstruction of signals, and you will learn signals with neural networks. The goals of this practice are the following:
 

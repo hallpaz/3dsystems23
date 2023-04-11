@@ -4,7 +4,7 @@ Here you'll find the instructions to each assignment of the course 3D Graphics S
 
 ### Assignment 2 - [Learning Signals](assignment2.md)
 
-### Lab Class 3 - [Introduction to PyTorch3D](labclass2.md)
+### Assignment 3 - [Introduction to PyTorch3D](assignment3.md)
 
 ### Assignment 4 - [Bundle Adjustment](x_assignment3.md)
 
