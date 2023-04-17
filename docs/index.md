@@ -6,7 +6,7 @@ Here you'll find the instructions to each assignment of the course 3D Graphics S
 
 ### Assignment 3 - [Introduction to PyTorch3D](assignment3.md)
 
-### Assignment 4 - [Bundle Adjustment](x_assignment3.md)
+### Assignment 4 - [Bundle Adjustment](assignment4.md)
 
 ### Assignment 5 - [Textures - Lab class only](x_assignment4.md)
 
