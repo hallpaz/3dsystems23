@@ -1,26 +1,46 @@
+**ASSIGNMENT 4: BUNDLE ADJUSTMENT**
 
-** LABORATORY CLASS 4: TEXTURES IN PYTORCH3D **
-
-In this class, we will learn how to work with textures in PyTorch3D. We'll explore the texture representations implemented in the library and relate it to our studies about images and  graphical objects in general.
+In this assignment, we will learn to simultaneously compute the extrinsic parameters of a set (bundle) of cameras, given multiple pairs of relative transformations between them. It's an instance of the bundle adjustment problem, which is very important for stereoscopy and 3D reconstruction. We'll use PyTorch3D API to set up an optimization process and minimize the discrepancies between pairs of relative cameras. 
 
 **The goals of this practice are the following:**
 
--   Understand *texture* as an attribute of a graphical object
--   Load textured meshes in PyTorch3D
--   Get familirization with texture representations implemented in PyTorch3D
--   Visualize textured pointclouds
+-   Get more familiarization with camera representations
+-   Discover new APIs in PyTorch3D to work with rigid transforms
+-   Use the power of neural networks and gradient descent to solve a classic optimiation
 
-## Instructions and submission:
+## Instructions:
+If you’re using Google Colab, you just need to have a google account and an associated Google Drive. Make a copy of the notebook located below and modify it as requested.
 
-You are not required to deliver anything as assignment this time. We recommend you study the references below and ask us any questions if you have doubts. We provide you a demo in Google Colab for you to experiment and test some of the possibilities with PyTorch3D. To use Google Colab, you just need to have a google account and an associated Google Drive. You can make a copy of the notebook located below and modify it if you wish.
+In case you’re choosing to work locally in your machine you must set Anaconda or a `venv` virtual environment, and install the necessary libraries. Create a folder in your Google Drive or in your machine’s workspace. Copy to your drive folder or download the following notebook:
 
-<a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/LabClass4.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+[Assignment  Notebook](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab4_bundleadjustment.ipynb)
+<a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab4_bundleadjustment.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+1. Follow the instructions in the notebook for completing the assignment.
+2. If you want, you can build auxiliary .py scripts and call them from your notebook, for organizational purposes.
 
-## References
+### Instructions:
 
-1. PyTorch3d website: https://pytorch3d.org
-2. Nikhila Ravi; Jeremy Reizenstein; David Novotny; Taylor Gordon; Wan-Yen Lo; Justin Johnson; Georgia Gkioxari. Accelerating 3D Deep Learning with PyTorch3D. [arXiv:2007.08501](https://arxiv.org/abs/2007.08501), 2020.
-3. [Textures in PyTorch3D Demo on Google Colab](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/LabClass4.ipynb).
-4. An Introduction to PyTorch3D. SIGGRAPH Asia 2020 course
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MOBAJb5nJRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+If you’re using Google Colab, you just need to have a google account and an associated Google Drive. In case you’re choosing to work locally in your machine you must set Anaconda or a venv virtual environment, and install the necessary libraries.
+
+Create a folder in your Google Drive or in your machine’s workspace. Copy to your drive folder or download the notebook above.
+
+Follow the instructions in the notebook for completing the assignment.
+
+You can build auxiliary .py scripts and call them from your notebook, for organizational purposes.
+
+### Submission 
+
+The assignment is due on April 26th, 2023 at 11:59pm (GMT-3).
+
+Students should send their assignments before the due date to hallpaz@impa.br with a copy to lvelho@impa.br. Late delivers will be consider subject to a lower score.
+
+The submission email should be sent with the subject “Assignment 4 - [first-name] - [last-name]”. The assignment can be structured and sent in two ways:
+
+If your whole solution is implemented in the same notebook as the one provided for the assignment, then you can send just the .ipynb file as the solution. If parts of your implementation were done in auxiliary .py scripts, then you must send both the final notebook and the scripts inside a .zip file. The organization of the code will also be considered in the evaluation.
+
+### References:
+
+1. Jonas Gomes, Luiz Velho and Mario Costa Sousa. Computer Graphics: Theory and Practice, chapters 2, 3 and 4.
+2. Richard Hartley and Andrew Zisserman. Multiple View Geometry in Computer Vision, chapter 18.
+3. PyTorch3D Tutorials - [Bundle Adjustment](https://pytorch3d.org/tutorials/bundle_adjustment)

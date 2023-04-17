@@ -23,6 +23,7 @@ Although there is a challenge in the end of the notebook, you are not required t
 
 1. PyTorch3d website: https://pytorch3d.org
 2. Nikhila Ravi; Jeremy Reizenstein; David Novotny; Taylor Gordon; Wan-Yen Lo; Justin Johnson; Georgia Gkioxari. Accelerating 3D Deep Learning with PyTorch3D. [arXiv:2007.08501](https://arxiv.org/abs/2007.08501), 2020.
+    2.1 Slides: https://slideslive.com/38942461
 3. [PyTorch3D Demo on Google Colab](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab3_pytorch3D_demo.ipynb).
 4. An Introduction to PyTorch3D. SIGGRAPH Asia 2020 course
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MOBAJb5nJRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
