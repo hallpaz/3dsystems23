@@ -17,9 +17,7 @@ In this assignment you will see in practice the theory of sampling and reconstru
 ### Instructions:
 If you’re using Google Colab, you just need to have a google account and an associated Google Drive. In case you’re choosing to work locally in your machine you must set Anaconda or a venv virtual environment, and install the necessary libraries.
 
-Create a folder in your Google Drive or in your machine’s workspace. Copy to your drive folder or download the following notebook:
-
-**Assignment 2 Notebook: To be updated**
+Create a folder in your Google Drive or in your machine’s workspace. Copy to your drive folder or download the notebook above.
 
 Follow the instructions in the notebook for completing the assignment.
 

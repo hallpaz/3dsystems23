@@ -8,6 +8,8 @@ In this assignment, we will learn to simultaneously compute the extrinsic parame
 -   Discover new APIs in PyTorch3D to work with rigid transforms
 -   Use the power of neural networks and gradient descent to solve a classic optimiation
 
+![](img/random_camera_bundle.png)
+
 ## Instructions:
 If you’re using Google Colab, you just need to have a google account and an associated Google Drive. Make a copy of the notebook located below and modify it as requested.
 
