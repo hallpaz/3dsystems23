@@ -7,7 +7,7 @@ In this assignment, we will design and train a Convolutional Neural Network (CNN
 * Learn how to implement CNNs on practice.
 * Work with a dataset of samples of a distribution.
 * Train a data-based neural network model.
-* Evaluate the model performance, specially with respect to generalization
+* Evaluate the model performance, specially with respect to generalization.
 
 
 ## Instructions:
