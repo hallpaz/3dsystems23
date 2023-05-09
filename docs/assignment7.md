@@ -24,7 +24,7 @@ In case you’re choosing to work locally in your machine you must set Anaconda 
 
 ### Submission 
 
-The assignment is due on TBA, 2023 at 11:59pm (GMT-3).
+The assignment is due on May 17th, 2023 at 11:59pm (GMT-3).
 
 Students should send their assignments before the due date to hallpaz@impa.br with a copy to lvelho@impa.br. Late delivers will be consider subject to a lower score.
 
