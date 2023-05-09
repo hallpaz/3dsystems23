@@ -10,16 +10,8 @@ In this assignment, we will design and train a Convolutional Neural Network (CNN
 * Evaluate the model performance, specially with respect to generalization.
 
 
-## Instructions:
-If you’re using Google Colab, you just need to have a google account and an associated Google Drive. Make a copy of the notebook located below and modify it as requested.
-
-In case you’re choosing to work locally in your machine you must set Anaconda or a `venv` virtual environment, and install the necessary libraries. Create a folder in your Google Drive or in your machine’s workspace. Copy to your drive folder or download the following notebook:
-
 [Assignment  Notebook](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab5_cnn.ipynb)
 <a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab5_cnn.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-1. Follow the instructions in the notebook for completing the assignment.
-2. If you want, you can build auxiliary .py scripts and call them from your notebook, for organizational purposes.
 
 ### Instructions:
 
