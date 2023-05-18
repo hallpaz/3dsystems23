@@ -14,7 +14,9 @@ Here you'll find the instructions to each assignment of the course 3D Graphics S
 
 ### Assignment 7 - [Loading and Visualizing Geometric Data](assignment7.md)
 
-### Assignment 8 - [Deforming a source mesh into a target mesh](x_assignment6.md)
+### Assignment 8 - [Point Clouds](assignment8.md)
+
+### Assignment 9 - [Deforming a source mesh into a target mesh](x_assignment6.md)
 
 ### Assignment 9 - [Rendering textured pointclouds and meshes](x_assignment7.md)
 
