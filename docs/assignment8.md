@@ -1,27 +1,42 @@
+**ASSIGNMENT 8**
 
-** LABORATORY CLASS 8: DIFFERENTIABLE RENDERING **
-
-In this class, we will learn about *Differentiable Rendering* using rasterization and how PyTorch3D implement it. We''l dive into the concepts we studied about 3D rendering to understand the limitations of traditional rendering for AI Graphics and how we can overcome it. We'll also see how differentiable rendering is an important step to bridge the gap between computer vision and compter graphics.
+In this assignment, we will create and visualize point clouds, as well as convert other object representations into point clouds. Moreover, we will train a vanilla implementation of Point Net to classify a dataset of pointclouds.
 
 **The goals of this practice are the following:**
 
--   Understand what is a differentiable renderer and what we can do with it
--   Understand which parts of the rendering pipeline can be a problem for differentiability
--   Get familiarization with PyTorch3D's differentiable rendering implementation
--   Learn how to setup a renderer with proper attributes in PyTorch3D
-
-## Instructions and submission:
-
-You are not required to deliver anything as assignment this time. We recommend you study the references below and ask us any questions if you have doubts. 
+* Visualize point clouds
+* Convert polygonal meshes into point clouds
+* Convert depth maps into point clouds
+* Generate point clouds procedurally
+* Use Point Net to classify point clouds
 
 
-## References
+### Instructions:
+If you’re using Google Colab, you just need to have a google account and an associated Google Drive. Make a copy of the notebook located below and modify it as requested.
 
-1. PyTorch3d [Renderer Overview](https://pytorch3d.org/docs/renderer)
-2. Liu et al, [Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786), ICCV 2019
-3. Nikhila Ravi; Jeremy Reizenstein; David Novotny; Taylor Gordon; Wan-Yen Lo; Justin Johnson; Georgia Gkioxari. Accelerating 3D Deep Learning with PyTorch3D. [arXiv:2007.08501](https://arxiv.org/abs/2007.08501), 2020.
-4. H. Kato, Y. Ushiku, and T. Harada. [Neural 3D Mesh Renderer](https://hiroharu-kato.com/publication/neural_renderer/). In Proceedings ofthe IEEE Conference on Computer Vision and Pattern Recognition, pages 3907–3916, 2018.
-5. M. M. Loper and M. J. Black. [Opendr: An approximate differentiable renderer](https://files.is.tue.mpg.de/black/papers/OpenDR.pdf). In European Conference on Computer Vision, pages 154–169. Springer, 2014.
-6. My own experiments on 2020: [https://hallpaz.github.io/3dsystems20/](https://hallpaz.github.io/3dsystems20/)
-7. An Introduction to PyTorch3D. SIGGRAPH Asia 2020 course
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MOBAJb5nJRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In case you’re choosing to work locally in your machine you must set Anaconda or a `venv` virtual environment, and install the necessary libraries. Create a folder in your Google Drive or in your machine’s workspace. Copy to your drive folder or download the following notebook:
+
+[Assignment 8 Notebook](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab8_point_clouds.ipynb)
+<a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab8_point_clouds.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+1. Follow the instructions in the notebook for completing the assignment.
+2. If you want, you can build auxiliary .py scripts and call them from your notebook, for organizational purposes.
+
+### Submission 
+
+The assignment is due on May 29th, 2023 at 11:59pm (GMT-3).
+
+Students should send their assignments before the due date to hallpaz@impa.br with a copy to lvelho@impa.br. Late delivers will be consider subject to a lower score.
+
+The submission email should be sent with the subject “Assignment 8 - [first-name] - [last-name]”. The assignment can be structured and sent in two ways:
+
+If your whole solution is implemented in the same notebook as the one provided for the assignment, then you can send just the .ipynb file as the solution. If parts of your implementation were done in auxiliary .py scripts, then you must send both the final notebook and the scripts inside a .zip file. The organization of the code will also be considered in the evaluation.
+
+
+### References and other useful contents:
+1. PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation - [paper](https://arxiv.org/abs/1612.00593)
+2. [https://shapenet.org](https://shapenet.org)
+2. [ShapeNet: An Information-Rich 3D Model Repository](https://arxiv.org/pdf/1512.03012.pdf)
+3. PyTorch3D [source code for Meshes](https://github.com/facebookresearch/pytorch3d/blob/master/pytorch3d/structures/meshes.py) data structure.
+5. [Objaverse](https://objaverse.allenai.org)
+7. [Synthetic Data Generation for Machine Learning](https://visgraf.github.io/syntheticlearning/)
