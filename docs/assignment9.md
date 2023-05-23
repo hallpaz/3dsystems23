@@ -14,7 +14,7 @@ If you’re using Google Colab, you just need to have a google account and an as
 
 In case you’re choosing to work locally in your machine you must set Anaconda or a `venv` virtual environment, and install the necessary libraries. Create a folder in your Google Drive or in your machine’s workspace. Copy to your drive folder or download the following notebook:
 
-[Assignment 8 Notebook](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab9_deforming_meshes.ipynb)
+[Assignment 9 Notebook](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab9_deforming_meshes.ipynb)
 <a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab9_deforming_meshes.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 1. Follow the instructions in the notebook for completing the assignment.
