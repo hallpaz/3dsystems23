@@ -18,7 +18,7 @@ Here you'll find the instructions to each assignment of the course 3D Graphics S
 
 ### Assignment 9 - [Deforming a source mesh into a target mesh](assignment9.md)
 
-### Assignment 10 - [Rendering textured pointclouds and meshes](x_assignment7.md)
+### Assignment 10 - [Rendering textured pointclouds and meshes](assignment10.md)
 
 ### Assignment 11 - [Differentiable Rendering - Lab class only](x_assignment8.md)
 
