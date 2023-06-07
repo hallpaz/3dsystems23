@@ -8,7 +8,7 @@ In this class, we will study differentiable rendering from a rasterization persp
 - Which operations of the rendering pipeline are non-differentiable 
 - Strategies to implement a differentiable renderer
 
-#### [👉🏾 Check the slides here](../slides/diffrendering.html)
+#### [👉🏾 Download the slides here](/3dsystems23/slides/diffrendering.pdf)
 
 
 ### References:
