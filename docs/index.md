@@ -20,7 +20,7 @@ Here you'll find the instructions to each assignment of the course 3D Graphics S
 
 ### Assignment 10 - [Rendering textured pointclouds and meshes](assignment10.md)
 
-### Assignment 11 - [Differentiable Rendering - Lab class only](x_assignment8.md)
+### Lab Class 11 - [Differentiable Rendering - Lab class only](differentiable_rendering.md)
 
 ### Assignment 12 - [Estimating Geometry, Texture and Camera using differentiable rendering](x_assignment9.md)
 
