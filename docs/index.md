@@ -22,6 +22,8 @@ Here you'll find the instructions to each assignment of the course 3D Graphics S
 
 ### Lab Class 11 - [Differentiable Rendering - Lab class only](labclass11.md)
 
-### Assignment 12 - [Estimating Geometry, Texture and Camera using differentiable rendering](x_assignment9.md)
+### Lab Class 12 - [Differentiable Rendering in PyTorch3D - Lab class only](labclass12.md)
 
-### Assignment 13 - [Neural Radiance Fields (NeRF) - Lab class only](x_assignment10.md)
+### Assignment 13 - [Estimating Geometry, Texture and Camera using differentiable rendering](x_assignment9.md)
+
+### Assignment 14 - [Neural Radiance Fields (NeRF) - Lab class only](x_assignment10.md)
