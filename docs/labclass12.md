@@ -15,6 +15,8 @@ In this class, we will understando how PyTorch3D implements a differentiable ren
 ### References:
 
 1. PyTorch3D: [Getting Started with Renderer](https://pytorch3d.org/docs/renderer_getting_started)
+2. Source code for standard shaders in PyTorch3D: https://github.com/facebookresearch/pytorch3d/blob/main/pytorch3d/renderer/mesh/shader.py
+2. Source code for points rasterizer in PyTorch3D: https://github.com/facebookresearch/pytorch3d/blob/main/pytorch3d/renderer/points/rasterizer.py
 2. OpenDR: An Approximate Differentiable Renderer [paper](https://files.is.tue.mpg.de/black/papers/OpenDR.pdf)
 3. Neural 3D Mesh Renderer - [paper](https://arxiv.org/pdf/1711.07566.pdf)
 4. Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning - [paper](https://arxiv.org/pdf/1904.01786.pdf)
