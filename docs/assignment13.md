@@ -1,31 +1,38 @@
 
-** LABORATORY CLASS 10: Neural Radiance Fields (NeRF) **
+**ASSIGNMENT 13**
 
-In this class, we will learn about *Neural Radiance Fields* a technique that allows us to synthesize novel views of a scene from a sparse set of input views. This algorithm uses an implicit function representation of a scene encoded in a fully connected deep network, which takes a 5D coordinate vector of position and viewing direction as input, and outputs the volume density and radiance. We'll learn how to use PyTorch3D to represent and render implicit surfaces and also how to reproduce results similar to NeRF's on Google Colab.
+In this assignment, we will load a textured mesh from an obj file, create a synthetic dataset by rendering the mesh from multiple viewpoints and use our multi-view dataset to infer properties of the scene with a differentiable renderer. First, we'll set up an optimization loop to fit a mesh to the observed dataset images based on a rendered silhouette loss; then we will augment this optimization loop with an additional loss based on rendered RGB images, aiming to predict both a mesh and its texture; and finally we'll learn to infer the camera position of a rendered image using the mesh geometry.
 
 **The goals of this practice are the following:**
 
--   Understand how to represent implicit surfaces using deep neural networks.
--   Understand some techniques to render implicit surfaces
--   Learn how to implement a "NeRF-like" pipeline using PyTorch3D
+-  Create a synthetic dataset by rendering a textured mesh from multiple viewpoints
+-  Understand more deeply a renderer pipeline 
+-  Learn how a differentiable pipeline can be used to infer a variety of scene properties
+-  Train a model to infer 3D geometry using 2D images supervision
+-  Test and understand the limitations of a differentiable renderer
 
-## Instructions and submission:
+## Instructions:
+If you’re using Google Colab, you just need to have a google account and an associated Google Drive. Make a copy of the notebook located below and modify it as requested.
 
-You are not required to deliver anything as assignment this time. We recommend you study the references below and ask us any questions if you have doubts. 
+In case you’re choosing to work locally in your machine you must set Anaconda or a `venv` virtual environment, and install the necessary libraries. Create a folder in your Google Drive or in your machine’s workspace. Copy to your drive folder or download the following notebook:
 
-### [Class Slides](nerf/nerflab.html)
+[Assignment 13 Notebook](https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab13_mesh_texture_camera.ipynb.ipynb)
+<a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab13_mesh_texture_camera.ipynb.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-<a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/LabClass10.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+1. Follow the instructions in the notebook for completing the assignment.
+2. If you want, you can build auxiliary .py scripts and call them from your notebook, for organizational purposes.
 
-![](nerf/img/nerf-cow.gif)
+### Submission 
 
+The assignment is due on June 22nd, 2023 at 11:59am (GMT-3).
 
-## References
+Students should send their assignments before the due date to hallpaz@impa.br with a copy to lvelho@impa.br. Late delivers will be consider subject to a lower score.
 
-1. Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, & Ren Ng (2020). [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf). In ECCV.
-2. Frank Dellaert. NeRF Explosion 2020 ([personal blog post](https://dellaert.github.io/NeRF/))
-3. [Volumetric Reconstruction in Pytorch3D](https://youtu.be/MOBAJb5nJRI). An Introduction to PyTorch3D, SIGGRAPH Asia 2020 course.
-4. Hallison da Paz and Luiz Velho. [Machine Learning for New Media](https://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-03-2021/tr-03-2021.pdf). Technical Report TR-03-2021, VISGRAF Lab - IMPA, 2023.
-5. Sitzmann V, Martel JN, Bergman AW, Lindell DB, Wetzstein G (2020) [Implicit neural representations with periodic activation functions](https://arxiv.org/abs/2006.09661)
-6. Matthew Tancik: Neural Radiance Fields for View Synthesis
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dPWLybp4LL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The submission email should be sent with the subject “Assignment 9 - [first-name] - [last-name]”. The assignment can be structured and sent in two ways:
+
+If your whole solution is implemented in the same notebook as the one provided for the assignment, then you can send just the .ipynb file as the solution. If parts of your implementation were done in auxiliary .py scripts, then you must send both the final notebook and the scripts inside a .zip file. The organization of the code will also be considered in the evaluation.
+
+### References:
+
+1. PyTorch3D: [Getting Started with Renderer](https://pytorch3d.org/docs/renderer_getting_started)
+2. Lab class on [Differentiable Rendering](labclass12.md)
