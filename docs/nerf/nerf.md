@@ -7,7 +7,7 @@ marp: true
 # Implicit surfaces rendering in PyTorch3D
 
 
-### 3D Graphics Systems - IMPA 2023 - Lab Class #10
+### 3D Graphics Systems - IMPA 2023 - Lab Class #14
 
 <!--_footer: Based on [Matthew Tancik's presentation](https://youtu.be/dPWLybp4LL0)-->
 
