@@ -15,7 +15,7 @@ You are not required to deliver anything as assignment this time. We recommend y
 
 ### [Class Slides](nerf/nerflab.html)
 
-<a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/LabClass10.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/hallpaz/3dsystems23/blob/main/assignments/lab14_fit_simple_neural_radiance_field.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ![](nerf/img/nerf-cow.gif)
 
@@ -25,7 +25,7 @@ You are not required to deliver anything as assignment this time. We recommend y
 1. Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, & Ren Ng (2020). [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://www.matthewtancik.com/nerf). In ECCV.
 2. Frank Dellaert. NeRF Explosion 2020 ([personal blog post](https://dellaert.github.io/NeRF/))
 3. [Volumetric Reconstruction in Pytorch3D](https://youtu.be/MOBAJb5nJRI). An Introduction to PyTorch3D, SIGGRAPH Asia 2020 course.
-4. Hallison da Paz and Luiz Velho. [Machine Learning for New Media](https://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-03-2021/tr-03-2021.pdf). Technical Report TR-03-2021, VISGRAF Lab - IMPA, 2023.
+4. Hallison Paz and Luiz Velho. [Machine Learning for New Media](https://www.visgraf.impa.br/Data/RefBib/PS_PDF/tr-03-2021/tr-03-2021.pdf). Technical Report TR-03-2021, VISGRAF Lab - IMPA, 2023.
 5. Sitzmann V, Martel JN, Bergman AW, Lindell DB, Wetzstein G (2020) [Implicit neural representations with periodic activation functions](https://arxiv.org/abs/2006.09661)
 6. Matthew Tancik: Neural Radiance Fields for View Synthesis
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dPWLybp4LL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

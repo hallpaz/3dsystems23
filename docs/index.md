@@ -26,4 +26,4 @@ Here you'll find the instructions to each assignment of the course 3D Graphics S
 
 ### Assignment 13 - [Estimating Geometry, Texture and Camera using differentiable rendering](assignment13.md)
 
-### Assignment 14 - [Neural Radiance Fields (NeRF) - Lab class only](x_assignment10.md)
+### Lab Class 14 - [Neural Radiance Fields (NeRF)](assignment14.md)
